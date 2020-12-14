@@ -1,0 +1,139 @@
+body{
+    box-sizing: border-box;
+}
+header{
+    padding-bottom: 10px;
+    
+}
+
+#login {
+    margin-top: 5px;
+    font-family: 'Rock Salt', cursive;
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    
+}
+#login:hover{
+    color: rgb(235, 156, 4);
+}
+nav{  
+
+    display: flex;
+    justify-content: space-between;
+
+}
+a{
+    text-decoration: none;
+}
+#logo{
+    margin-right: 10px;
+    display: block;
+    padding-left: 45px;
+    padding-bottom: 10px;
+
+}
+#logo h3{
+    align-items: center;
+    color: black;
+    font-family: 'Rock Salt', cursive;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    margin: 25px;
+    padding-right: 20px;
+}
+
+.wrap ul li a:hover{
+    color: rgb(235, 156, 4);
+
+}
+.wrap{
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: rgb(251, 251, 122);
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.wrap a img{
+    width: 100px;
+}
+.wrap h3 {
+    text-align: center;
+    text-decoration: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+    font-family: 'Rock Salt', cursive;
+}
+
+#home h2{
+    text-decoration: none;
+    color: rgb(235, 156, 4);
+    font-size: 26px;
+    font-family: 'Rock Salt', cursive;
+    margin-top: 20px;
+    margin-left: 55px;
+    
+}
+
+.youtube{
+    margin-left : 230px;
+    margin-top:60px;
+}
+
+#home p{
+    font-size: 20px;
+    font-family: 'Rock Salt', cursive;
+    color:black;
+    margin-top:20px;
+    margin-left:300px;
+    background-color: rgb(252, 254, 182);
+    width: 400px;
+    
+}
+
+#list {
+    width: 250px;
+    padding-left: 15px;
+    padding-top: 10px;
+    background-color: rgb(255, 230, 4);
+    height: 300px;
+    margin-left: 180px;
+    margin-top: 100px;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+#list p{
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-family: 'Nanum Pen Script', cursive;
+    padding-left: 80px;
+    background-color: rgb(252, 254, 182);
+    width: 150px;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
+#list ol li{
+    font-size: 28px;
+    margin-top: 5px;
+    font-family: 'Nanum Pen Script', cursive;
+    padding-left: 20px;
+}
+
+#menu{
+    display: flex;
+}
+

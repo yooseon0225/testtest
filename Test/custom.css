@@ -1,0 +1,110 @@
+body{
+    box-sizing: border-box;
+}
+header{
+    padding-bottom: 10px;
+    
+}
+
+#login {
+    font-family: 'Rock Salt', cursive;
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    right: 25px;
+    top: 5px;
+}
+
+nav{  
+
+    display: flex;
+    justify-content: space-between;
+
+}
+a{
+    text-decoration: none;
+}
+#logo{
+    margin-right: 10px;
+    display: block;
+    padding-left: 30px;
+    padding-bottom: 10px;
+
+}
+#logo h3{
+    align-items: center;
+    color: black;
+    font-family: 'Rock Salt', cursive;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    margin: 25px;
+    padding-right: 20px;
+}
+
+.wrap ul li a:hover{
+    color: rgb(235, 156, 4);
+
+}
+.wrap{
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: rgb(251, 251, 122);
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.wrap a img{
+    width: 100px;
+}
+.wrap h3 {
+    text-align: center;
+    text-decoration: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+    font-family: 'Rock Salt', cursive;
+}
+
+
+#home h2{
+    text-decoration: none;
+    color: rgb(235, 156, 4);
+    font-size: 26px;
+    font-family: 'Rock Salt', cursive;
+    margin-top: 15px;
+    margin-left: 55px;
+    
+}
+
+#cookie{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#cookie .cum_cookie {
+    text-align: center;
+    line-height: 2;
+}
+#cookie .cum_cookie img {
+    width: 250px;
+    height: 250px;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#cookie p{
+    font-family: 'Rock Salt', cursive;
+    font-size: 20px;
+}
+
+.go_login a{
+    text-decoration: none;
+    color:black;
+}

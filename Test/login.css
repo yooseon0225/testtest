@@ -1,0 +1,152 @@
+body{
+    box-sizing: border-box;
+}
+header{
+    padding-bottom: 10px;
+    
+}
+
+#login {
+    margin-top: 5px;
+    font-family: 'Rock Salt', cursive;
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    
+}
+#login:hover{
+    color: rgb(235, 156, 4);
+}
+nav{  
+
+    display: flex;
+    justify-content: space-between;
+
+}
+a{
+    text-decoration: none;
+}
+#logo{
+    margin-right: 10px;
+    display: block;
+    padding-left: 45px;
+    padding-bottom: 10px;
+
+}
+#logo h3{
+    align-items: center;
+    color: black;
+    font-family: 'Rock Salt', cursive;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    margin: 25px;
+    padding-right: 20px;
+}
+
+.wrap ul li a:hover{
+    color: rgb(235, 156, 4);
+
+}
+.wrap{
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: rgb(251, 251, 122);
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.wrap a img{
+    width: 100px;
+}
+.wrap h3 {
+    text-align: center;
+    text-decoration: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+    font-family: 'Rock Salt', cursive;
+}
+
+#home2 h2{
+    text-decoration: none;
+    color: rgb(235, 156, 4);
+    font-size: 26px;
+    font-family: 'Rock Salt', cursive;
+    margin-top: 20px;
+    margin-left: 55px;
+    
+}
+
+#home2 img{
+    width: 160px;
+    height: 160px;
+    display:block;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+#home2 p{
+    font-size: 25px;
+
+}
+
+.name{
+    font-family: 'Rock Salt', cursive;
+    background-color: #FFF278;
+    border: 3px solid #FFB156;
+    border-radius: 10px;
+    width: 250px;
+    height: 35px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    margin-left: 650px;
+    margin-top: 25px;
+}
+.pwd{
+    background-color: #FFF278;
+    border: 3px solid #FFB156;
+    border-radius: 10px;
+    width: 250px;
+    height: 35px;
+    font-size: 15px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    margin-left: 650px;
+    margin-top: 15px;
+}
+
+.login_id{
+    font-family: 'Rock Salt', cursive;
+    margin-bottom: 5px;
+    margin-left: 650px;
+    margin-top: 15px;
+}
+.go_login{
+    font-family: 'Rock Salt', cursive;
+    background: #FFB156;
+    border: 1.5px solid #A96F00;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 85px;
+    padding: 5px;
+    margin-left: 730px;
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+
